@@ -75,9 +75,6 @@ function ThemeToggle({ theme, onToggle }) {
   );
 }
 
-// ---------------------------------------------------------------------------
-// Rankings tab
-// ---------------------------------------------------------------------------
 
 function RankingsView() {
   const [data, setData] = useState(null);
