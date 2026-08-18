@@ -1,0 +1,10 @@
+cutoff_season,model,n_test,mae,spearman
+2020,GradientBoosting,3834,9.01,0.609
+2020,XGBoost,3834,8.75,0.622
+2020,Baseline(persistence),3834,9.15,0.579
+2022,GradientBoosting,3771,8.94,0.611
+2022,XGBoost,3771,8.63,0.625
+2022,Baseline(persistence),3771,9.18,0.573
+2024,GradientBoosting,3210,10.78,0.469
+2024,XGBoost,3210,10.71,0.478
+2024,Baseline(persistence),3210,12.17,0.429

@@ -1,0 +1,16 @@
+model,position,n_test,mae,spearman
+GradientBoosting,ALL,10445,9.92,0.536
+GradientBoosting,GK,745,11.49,0.44
+GradientBoosting,DF,4058,10.62,0.47
+GradientBoosting,MF,3207,8.36,0.668
+GradientBoosting,FW,2435,10.32,0.47
+XGBoost,ALL,10445,9.77,0.548
+XGBoost,GK,745,11.28,0.456
+XGBoost,DF,4058,10.5,0.479
+XGBoost,MF,3207,8.2,0.676
+XGBoost,FW,2435,10.16,0.481
+Baseline(persistence),ALL,10445,10.9,0.499
+Baseline(persistence),GK,745,12.68,0.409
+Baseline(persistence),DF,4058,11.8,0.439
+Baseline(persistence),MF,3207,8.9,0.652
+Baseline(persistence),FW,2435,11.48,0.427
